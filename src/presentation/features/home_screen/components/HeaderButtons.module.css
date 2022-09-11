@@ -10,4 +10,5 @@
 .button span :hover {
   font-weight: bold;
   font-size: 20px;
+cursor: pointer;
 }
