@@ -1,6 +1,48 @@
 .left {
-    width: 30%;
-background-color: antiquewhite;
-    padding: 20px;
-  }
-  
+  width: 30%;
+  padding: 20px;
+  line-height: 2px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 130px;
+  z-index: -1;
+
+}
+.center {
+  position: absolute;
+  margin-top: 100px;
+
+}
+
+.left img {
+  height: 170px;
+  width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center h2 {
+  color: rebeccapurple;
+  text-align: center;
+}
+.center p {
+  text-align: center;
+  font-style: italic;
+  overflow-wrap: break-word;
+}
+
+.center button{
+   width: 100%;
+   padding: 10px;
+   background-color: #4366CF;
+   border: 2px solid greenyellow;
+   border-radius: 20px;
+   color: white;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
