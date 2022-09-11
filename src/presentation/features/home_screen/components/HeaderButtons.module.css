@@ -1,0 +1,13 @@
+.button {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.button span {
+  padding: 10px;
+}
+.button span :hover {
+  font-weight: bold;
+  font-size: 20px;
+}
