@@ -7,8 +7,9 @@ const HomePageBody = (props) => {
     <div className={HomePageBodyStyle.body_design}>
       <LeftContainer></LeftContainer>
       <RightContainer></RightContainer>
-
+    
     </div>
+    
   );
 };
 

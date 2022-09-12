@@ -1,16 +1,15 @@
 import ContainerStyle from "./LeftContainer.module.css";
 
-const url =
-  "https://yt3.ggpht.com/yti/AJo0G0mEQSBSpuCHeLyaw0BWRpxgYyGI80ZLdzj6XJLWMw=s108-c-k-c0x00ffffff-no-rj";
+const url ="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg";
 const LeftContainer = (props) => {
   return (
     <div className={ContainerStyle.left}>
-      <div className={ContainerStyle.center}>
+  
         <img src={url} alt="Avatar"></img>
-        <p></p>
+        <h1></h1>
         <h2>Md Hadiuzzaman</h2>
         <p>Software Engineer @HeavyTask LLC</p>
-        <p></p>
+        <div className={ContainerStyle.gap}></div>
 
             <button>About Me</button>
             <button>Educations</button>
@@ -19,7 +18,6 @@ const LeftContainer = (props) => {
             <button>Blog</button>
             <button>Contacts</button>
         
-      </div>
     </div>
   );
 };

@@ -1,4 +1,16 @@
 .right {
     width: 70%;
-    padding-left: 20px;
+    z-index: -1;
   }
+
+.right_top{
+  position: fixed; 
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+}
+.right_content{
+  position: relative;
+  top: 90px;
+  z-index: -1;
+}

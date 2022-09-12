@@ -5,6 +5,7 @@ const HeaderButton = (props) => {
     <div className={headerButtonStyle.button}>
       <span><p>Portfolio</p></span>
       <span><p>Blog</p></span>
+      <span><p>Hire me</p></span>
       <span><p>Contact</p></span>
     </div>
   );
