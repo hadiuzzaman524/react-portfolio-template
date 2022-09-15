@@ -19,11 +19,11 @@ function App() {
         <SideBar>
           <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/AboutMe' element={<AboutMe />} />
-            <Route path='/Education' element={<Contacts />} />
-            <Route path='/Projects' element={<MyProjects />} />
-            <Route path='/Skill' element={<Skills />} />
-            <Route path='/Contacts' element={<Contacts />} />
+            <Route path='/aboutme' element={<AboutMe />} />
+            <Route path='/education' element={<Contacts />} />
+            <Route path='/projects' element={<MyProjects />} />
+            <Route path='/skills' element={<Skills />} />
+            <Route path='/contacts' element={<Contacts />} />
           </Routes>
 
         </SideBar>
