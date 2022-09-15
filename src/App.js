@@ -11,6 +11,7 @@ import MyProjects from './presentation/features/my_projects/MyProjects';
 import Skills from './presentation/features/skills/Skills';
 import SideBar from './presentation/features/side_bar/SideBar';
 import HomePage from './presentation/features/home_screen/Home';
+import HireMe from './presentation/features/hire_me/HireMe';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/projects' element={<MyProjects />} />
             <Route path='/skills' element={<Skills />} />
             <Route path='/contacts' element={<Contacts />} />
+            <Route path='/hireme' element={<HireMe/>}/>
           </Routes>
 
         </SideBar>

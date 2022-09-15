@@ -19,11 +19,6 @@ const routes = [
         icon: <FaHome size={iconSize} />,
     },
     {
-        path: "/contacts",
-        name: "Contacts",
-        icon: <FaUser size={iconSize} />,
-    },
-    {
         path: "/aboutme",
         name: "About Me",
         icon: <MdMessage size={iconSize} />,
@@ -38,6 +33,17 @@ const routes = [
         name: "Skills",
         icon: <AiTwotoneFileExclamation size={iconSize} />,
     },
+   {
+        path: "/hireme", 
+        name: "HireMe", 
+        icon: <FaChevronRight size={iconSize} />,
+    },
+    {
+        path: "/contacts",
+        name: "Contacts",
+        icon: <FaUser size={iconSize} />,
+    },
+
     {
         path: "/projects",
         name: "Projects",
@@ -46,21 +52,21 @@ const routes = [
 ];
 
 const SideBar = ({ children }) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
     const toggle = () => setIsOpen(!isOpen);
     const showAnimation = {
         hidden: {
             width: 0,
             opacity: 0,
             transition: {
-                duration: 0.5,
+                duration: 0.6,
             },
         },
         show: {
             opacity: 1,
             width: "auto",
             transition: {
-                duration: 0.5,
+                duration: 0.6,
             },
         },
     };
