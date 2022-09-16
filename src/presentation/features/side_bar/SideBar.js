@@ -19,11 +19,6 @@ const routes = [
         icon: <FaHome size={iconSize} />,
     },
     {
-        path: "/aboutme",
-        name: "About Me",
-        icon: <MdMessage size={iconSize} />,
-    },
-    {
         path: "/education",
         name: "Education",
         icon: <BiAnalyse size={iconSize} />,

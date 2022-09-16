@@ -5,7 +5,6 @@ import {
   Routes
 } from "react-router-dom";
 
-import AboutMe from './presentation/features/about_me/AboutMe';
 import Contacts from './presentation/features/contacts/Contacts';
 import MyProjects from './presentation/features/my_projects/MyProjects';
 import Skills from './presentation/features/skills/Skills';
@@ -20,7 +19,6 @@ function App() {
         <SideBar>
           <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/aboutme' element={<AboutMe />} />
             <Route path='/education' element={<Contacts />} />
             <Route path='/projects' element={<MyProjects />} />
             <Route path='/skills' element={<Skills />} />

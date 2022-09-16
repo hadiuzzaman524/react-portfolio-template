@@ -1,0 +1,53 @@
+.home_top{
+  
+    display: flex;
+}
+.home_bottom{
+    width: auto;
+}
+.home_top_container{
+padding: 50px;
+}
+.home_top img{
+    height: 60vh;
+    width: 400px;
+}
+.home_top_container button{
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid wheat;
+    width: 150px;
+    background-color: rgb(45, 51,89);
+    color: white;
+
+}
+.before_name{
+    color: blueviolet;
+}
+.name{
+    color: brown;
+}
+.home_bottom_container{
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my_scrvices{
+
+    width: 300px;
+    height: 200px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.resume{
+    width: 300px;
+    height: 200px;
+    background-color: darkcyan;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+}
