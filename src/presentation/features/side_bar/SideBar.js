@@ -11,7 +11,7 @@ import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { useState } from 'react';
 
-const iconSize = 25;
+const iconSize = 21;
 const routes = [
     {
         path: "/",
@@ -59,14 +59,14 @@ const SideBar = ({ children }) => {
             width: 0,
             opacity: 0,
             transition: {
-                duration: 0.6,
+                duration: 0.4,
             },
         },
         show: {
             opacity: 1,
             width: "auto",
             transition: {
-                duration: 0.6,
+                duration: 0.4,
             },
         },
     };
@@ -75,7 +75,7 @@ const SideBar = ({ children }) => {
         <div className={Style.main_container}>
 
             <motion.div className={Style.sidebar} animate={{
-                width: isOpen ? "270px" : "32px",
+                width: isOpen ? "270px" : "40px",
                 transition: {
                     duration: 0.5,
                     type: "spring",
@@ -107,7 +107,10 @@ const SideBar = ({ children }) => {
                     routes.map((item) => {
                         return (
                             <>
-                                <NavLink to={item.path} key={item.name} className={Style.nav_item}>
+                                <NavLink to={item.path} 
+                                key={item.name} 
+                                className={Style.nav_item}
+                                >
                                     <div className={Style.icon}>{item.icon}</div>
                                     <div className={Style.link_text}>{item.name}</div>
                                 </NavLink>

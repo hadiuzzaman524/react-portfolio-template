@@ -1,12 +1,15 @@
 .main_container {
     display: flex;
   }
-
+a{
+  text-decoration: none;
+}
 .sidebar {
     background: rgb(0, 7, 61);
     color: white;
     height: 100vh;
     overflow-y: auto;
+    padding-left: 10px;
   }
   .sidebar img{
     height: 125px;
@@ -21,20 +24,35 @@
   }
   .nav_item{
     display: flex;
-    color: wheat;
-    margin-top: 10px;
+    color: white;
+   padding: 10px;
     align-items: center;
+   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   overflow: hidden;
   }
+  .nav_item:hover{
+    border-right: 3px solid white;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: rgb(45, 51,89);
+
+  }
+ .active{
+  border-right: 3px solid white;
+  background-color: rgb(45, 51,89);
+ }
   .icon {
     font-size: 18px;
     line-height: 0;
   }
   .link_text{
-    font-size: 22px;
+    font-size: 18px;
     padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
   }
   .bar{
-    color: aqua;
+    color: white;
     display: flex;
     justify-content: end;
     align-items: flex-end;
