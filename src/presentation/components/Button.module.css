@@ -2,9 +2,9 @@
     padding: 10px;
     background-color: blueviolet;
     color: white;
-    border-radius: 20px;
-    height: 35px;
-    width: 150px;
+    border-radius: 15px;
+    height: 40px;
+    width: 200px;
     border: none;
 }
 .button :hover{

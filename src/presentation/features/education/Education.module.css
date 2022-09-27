@@ -1,6 +1,32 @@
-.education_body{
-    margin-top: 100px;
-    height: 100vh;
-    width: 100%;
-    background-color: brown;
+.main_container {
+    position: relative;
+    top: 60px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    width: 107%;
+
+}
+.education_top{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.education_card{
+    height: 45vh;
+    width: 600px;
+    background-color: #ededed;
+    border-radius: 15px;
+}
+
+@media (max-width: 800px){
+    .education_top{
+       
+        flex-direction: column;
+     
+    }
 }

@@ -12,6 +12,7 @@ import SideBar from './presentation/features/side_bar/SideBar';
 import HomePage from './presentation/features/home_screen/Home';
 import HireMe from './presentation/features/hire_me/HireMe';
 import Header from './presentation/features/header/Header';
+import Education from './presentation/features/education/Education';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Header>
           <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/education' element={<Contacts />} />
+            <Route path='/education' element={<Education />} />
             <Route path='/projects' element={<MyProjects />} />
             <Route path='/skills' element={<Skills />} />
             <Route path='/contacts' element={<Contacts />} />

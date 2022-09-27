@@ -4,6 +4,8 @@
     z-index: -1;
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .home_top {
@@ -29,7 +31,7 @@
 
 .my_scrvices {
     height: 250px;
-    width: 400px;
+    width: 350px;
     background-color: #926691;
     border-radius: 20px;
     margin: 20px;
@@ -98,14 +100,10 @@
 .name{
     color: chocolate;
 }
-
-.social_icon{
-    color: brown;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 20px;
+.my_scrvices p{
+    font-size: 20px;
 }
+
 
 @media (max-width: 800px) {
     .home_top {
