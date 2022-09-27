@@ -1,0 +1,31 @@
+.main_container{
+    display: flex;
+}
+
+.header {
+    height: 60px;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.nav_item {
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: wheat;
+}
+
+.nav_item:hover {
+font-weight: bold;
+color: white;
+}
+
+.link_text {
+    font-size: 18px;
+    padding-left: 10px;
+    gap: 10px;
+}

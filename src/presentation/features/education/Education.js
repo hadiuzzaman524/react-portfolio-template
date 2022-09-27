@@ -2,7 +2,7 @@ import Style from "./Education.module.css";
 
 const Education= ()=>{
     return(
-        <div>
+        <div className={Style.education_body}>
             Education
         </div>
     );
