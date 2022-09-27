@@ -7,7 +7,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 50px;
-    width: 107%;
+    width: 100%;
 
 }
 .education_top{
@@ -17,12 +17,48 @@
     gap: 20px;
 }
 .education_card{
-    height: 45vh;
+    height: 300px;
     width: 600px;
-    background-color: #ededed;
+    background-color: #f8f0f8;
     border-radius: 15px;
+   
 }
-
+.education_card_top{
+    display: flex;
+    height: 85%;
+    overflow: hidden;
+}
+.education_card_bottom{
+    height: 15%;
+    display: flex;
+    justify-content: end;
+}
+.education_info{
+    margin-left: 10px;
+}
+.education_info p{
+    font-size: 18px;
+}
+.image{
+    padding: 10px;
+    width: 80px;
+}
+.image img{
+    border-radius: 50%;
+}
+.design{
+    height: 100%;
+    width: 140px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #926691;
+    font-weight: bold;
+}
 @media (max-width: 800px){
     .education_top{
        
