@@ -1,12 +1,15 @@
 import Style from "./Home.module.css";
 import hadi from "../../../images/hadiuzzaman.png";
 import { BiCog } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 import CommonButton from "../../components/Button";
 
-import { MdMessage } from "react-icons/md";
-import { BiAnalyse, BiSearch } from "react-icons/bi";
+import { RiFlutterFill } from "react-icons/ri";
 
-const iconSize= 28; 
+
+const iconSize = 28;
 
 const HomePage = () => {
     return (
@@ -30,11 +33,14 @@ const HomePage = () => {
                         </div>
                     </div>
                     <h2>Project Done</h2>
+
                 </div>
                 <div className={Style.my_scrvices}>
                     <BiCog size={50} />
                     <h2>Services</h2>
-                    <p>Android and IOS development 100% <br /> Firebase Services 100% <br />Web development 70%</p>
+                    <p> <span> 
+                        <FaLinkedin size={20} />
+                    </span> Flutter Development 100% <br /> Firebase Services 100% <br />Web development 70%</p>
                 </div>
                 <div className={Style.for_more}>
                     <h2>Looking for more ?</h2>
@@ -43,9 +49,19 @@ const HomePage = () => {
                     </p>
                     <CommonButton title="Download Resume"></CommonButton>
                     <div className={Style.social_icon}>
-                        <MdMessage size={iconSize}/>
-                        <BiAnalyse size={iconSize}/>
-                        <BiCog size={iconSize}/>
+                        <div style={{ color: '#1877F2' }}>
+                            <FaFacebookSquare size={iconSize} />
+                        </div>
+
+                        <div style={{ color: 'black' }}>
+                            <FaGithubSquare size={iconSize} />
+                        </div>
+
+                        <div style={{ color: '#0073B1' }}>
+                            <FaLinkedin size={iconSize} />
+                        </div>
+
+
                     </div>
                 </div>
             </div>
