@@ -8,7 +8,7 @@ import {FaWhatsappSquare} from "react-icons/fa";
 
 import { RiFlutterFill } from "react-icons/ri";
 
-const iconSize = 28;
+const iconSize = 30;
 
 const SocialMedia = ()=>{
     return (
