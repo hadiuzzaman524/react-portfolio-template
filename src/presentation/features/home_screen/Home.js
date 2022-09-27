@@ -1,6 +1,12 @@
 import Style from "./Home.module.css";
 import hadi from "../../../images/hadiuzzaman.png";
 import { BiCog } from "react-icons/bi";
+import CommonButton from "../../components/Button";
+
+import { MdMessage } from "react-icons/md";
+import { BiAnalyse, BiSearch } from "react-icons/bi";
+
+const iconSize= 28; 
 
 const HomePage = () => {
     return (
@@ -10,7 +16,7 @@ const HomePage = () => {
                     <h1>Hey! <span className={Style.before_name}>I'm</span> <br /> <span className={Style.name}>Md Hadiuzzaman</span> </h1>
                     <h4 >Software Engineer @HeavyTask LLC</h4>
                     <h5>To work in various national and international software or tech giants companies in the world and grow rapidly with increasing responsibility.</h5>
-                    <button>Hire Me</button>
+                    <CommonButton title="Hire me"></CommonButton>
                 </div>
                 <img src={hadi} />
             </div>
@@ -35,7 +41,12 @@ const HomePage = () => {
                     <p>To work in various national and international software firms or tech giants companies in the world,
                         and grow rapidly with increasing responsibility.
                     </p>
-                    <button>Download Resume</button>
+                    <CommonButton title="Download Resume"></CommonButton>
+                    <div className={Style.social_icon}>
+                        <MdMessage size={iconSize}/>
+                        <BiAnalyse size={iconSize}/>
+                        <BiCog size={iconSize}/>
+                    </div>
                 </div>
             </div>
         </div>

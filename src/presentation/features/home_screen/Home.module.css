@@ -69,11 +69,27 @@
 .inner_circle2{
     height: 130px;
     width: 130px;
-    background-color: red;
+    background-color: chocolate;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+.before_name{
+    font-weight: bold;
+    color: blueviolet;
+}
+.name{
+    color: chocolate;
+}
+
+.social_icon{
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 @media (max-width: 800px) {
