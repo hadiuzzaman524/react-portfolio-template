@@ -1,0 +1,43 @@
+.main_container {
+    position: relative;
+    top: 60px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+}
+.skill_set{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.skill_box{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ 
+}
+.skill_card{
+    height: 135px;
+    width: 270px;
+    border-radius: 15px;
+    border: 1px solid rebeccapurple;
+    background-color: #f8f0f8;
+    display: flex;
+}
+.skill_image{
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+}
+.skill_image img{
+    border-radius: 50%;
+}
+.skill_details{
+line-height: .9;
+}
