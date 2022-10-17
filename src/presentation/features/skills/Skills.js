@@ -117,13 +117,3 @@ const Skills = () => {
 
 export default Skills;
 
-/*
-    
-      
-          
-
-         
-
-        <h1>Database</h1>
-        
-*/
