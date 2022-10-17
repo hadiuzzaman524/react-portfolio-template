@@ -48,7 +48,6 @@ const routes = [
 const Header = ({ children }) => {
     return (
         <>
-        <div className={Style.main_container}>
         <div className={Style.header}>
          {
                 routes.map((item) => {
@@ -67,7 +66,7 @@ const Header = ({ children }) => {
         <main>
             {children}
         </main>
-        </div>
+      
         </>
     );
 }

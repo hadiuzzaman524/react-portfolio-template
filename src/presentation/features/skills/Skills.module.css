@@ -1,19 +1,46 @@
 .main_container {
     position: relative;
-    top: 60px;
+    top: 80px;
     z-index: -1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 50px;
+}
+.main_container h1{
+    text-align: center;
+}
+.skill_box_with_image{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.skill_left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_left img{
+    height: 350px;
+    width: 300px;
+}
+.skill_right{
+    width: 70%;
+    display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 50px;
-    width: 100%;
+ 
 }
 .skill_set{
     display: flex;
     gap: 20px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .skill_box{
     width: auto;
@@ -40,4 +67,16 @@
 }
 .skill_details{
 line-height: .9;
+}
+.divider{
+    height: 2px;
+    background-color: #ededed;
+}
+.small_divider{
+    height: 5px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #949090;
+    margin-top: -30px;
+    margin-bottom: 10px;
 }
