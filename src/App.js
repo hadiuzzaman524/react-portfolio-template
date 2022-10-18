@@ -5,7 +5,7 @@ import {
   Routes
 } from "react-router-dom";
 
-import Contacts from './presentation/features/contacts/Contacts';
+import Research from './presentation/features/contacts/Research';
 import MyProjects from './presentation/features/my_projects/MyProjects';
 import Skills from './presentation/features/skills/Skills';
 import SideBar from './presentation/features/side_bar/SideBar';
@@ -24,7 +24,7 @@ function App() {
             <Route path='/education' element={<Education />} />
             <Route path='/projects' element={<MyProjects />} />
             <Route path='/skills' element={<Skills />} />
-            <Route path='/contacts' element={<Contacts />} />
+            <Route path='/research' element={<Research />} />
             <Route path='/hireme' element={<HireMe/>}/>
           </Routes>
         </Header>

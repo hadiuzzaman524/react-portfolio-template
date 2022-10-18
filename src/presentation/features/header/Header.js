@@ -27,22 +27,24 @@ const routes = [
         name: "Skills",
         icon: <AiTwotoneFileExclamation size={iconSize} />,
     },
-    {
-        path: "/hireme",
-        name: "HireMe",
-        icon: <FaChevronRight size={iconSize} />,
-    },
-    {
-        path: "/contacts",
-        name: "Contacts",
-        icon: <FaUser size={iconSize} />,
-    },
-
+    
     {
         path: "/projects",
         name: "Projects",
         icon: <BsCartCheck size={iconSize} />,
     },
+    {
+        path: "/research",
+        name: "Research",
+        icon: <FaUser size={iconSize} />,
+    },
+
+    {
+        path: "/hireme",
+        name: "HireMe",
+        icon: <FaChevronRight size={iconSize} />,
+    },
+   
 ];
 
 const Header = ({ children }) => {
