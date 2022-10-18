@@ -1,9 +1,19 @@
-import Style from "./MyProjects.module.css"; 
+import Style from "./MyProjects.module.css";
 
-const MyProjects= ()=>{
-    return(
-        <div>
-            MyProjects
+import ProjectCard from "./ProjectCard";
+
+const MyProjects = () => {
+    return (
+        <div className={Style.main_container}>
+            
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
         </div>
     );
 }
