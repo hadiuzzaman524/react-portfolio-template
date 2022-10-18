@@ -20,8 +20,8 @@ import hive from "../../../images/rsz_hive.png";
 import firebase from "../../../images/firebase64x64.png";
 import database_image from "../../../images/skill_database.png";
 
-import  { ReactComponent as YourSvg } from "../../../images/framework_skill.svg";
-import  { ReactComponent as LanguageSvg } from "../../../images/language_skill.svg";
+import { ReactComponent as YourSvg } from "../../../images/framework_skill.svg";
+import { ReactComponent as LanguageSvg } from "../../../images/language_skill.svg";
 
 import SkillCard from "./SkillCard";
 
@@ -32,43 +32,33 @@ const Skills = () => {
       <div className={Style.small_divider}></div>
       <div className={Style.skill_box_with_image}>
         <div className={Style.skill_left}>
-     <LanguageSvg height={500} width={400}/>
+          <LanguageSvg height={500} width={400} />
         </div>
         <div className={Style.skill_right}>
-          <div className={Style.skill_set}>
-            <SkillCard image={java} title="Java"></SkillCard>
-            <SkillCard image={cplus} title="C++"></SkillCard>
-            <SkillCard image={cplus} title="C"></SkillCard>
-          </div>
-          <div className={Style.skill_set}>
-            <SkillCard image={dart} title="Dart"></SkillCard>
-            <SkillCard image={javascript} title="Java Script"></SkillCard>
-            <SkillCard image={python} title="Python"></SkillCard>
-          </div>
-          <div className={Style.skill_set}>
-            <SkillCard image={php} title="PHP"></SkillCard>
-            <SkillCard image={latex} title="Latex"></SkillCard>
-          </div>
+          <SkillCard image={java} title="Java"></SkillCard>
+          <SkillCard image={cplus} title="C++"></SkillCard>
+          <SkillCard image={cplus} title="C"></SkillCard>
+          <SkillCard image={dart} title="Dart"></SkillCard>
+          <SkillCard image={javascript} title="Java Script"></SkillCard>
+          <SkillCard image={python} title="Python"></SkillCard>
+          <SkillCard image={php} title="PHP"></SkillCard>
+          <SkillCard image={latex} title="Latex"></SkillCard>
         </div>
-
       </div>
-      <div className={Style.divider}></div>
+
+
+
       <h1>Top Framework</h1>
       <div className={Style.small_divider}></div>
       <div className={Style.skill_box_with_image}>
         <div className={Style.skill_left}>
-        <YourSvg height={400} width={400}/>
+          <YourSvg height={400} width={400} />
         </div>
         <div className={Style.skill_right}>
-          <div className={Style.skill_set}>
-            <SkillCard image={flutter} title="Flutter"></SkillCard>
-            <SkillCard image={react} title="React Js"></SkillCard>
-            <SkillCard image={android} title="Android"></SkillCard>
-          </div>
-          <div className={Style.skill_set}>
+          <SkillCard image={flutter} title="Flutter"></SkillCard>
+          <SkillCard image={react} title="React Js"></SkillCard>
+          <SkillCard image={android} title="Android"></SkillCard>
           <SkillCard image={wordpress} title="Wordpress"></SkillCard>
-          </div>
-
         </div>
 
       </div>
@@ -81,20 +71,17 @@ const Skills = () => {
           <img src={skillset} />
         </div>
         <div className={Style.skill_right}>
-        <div className={Style.skill_set}>
-            <SkillCard image={ds} title="Data Structure"></SkillCard>
-            <SkillCard image={algorithm} title="Machine Learning"></SkillCard>
-            <SkillCard image={algorithm} title="Deep Learning"></SkillCard>
-            
-          </div>
-          <div className={Style.skill_set}>
-            <SkillCard image={ds} title="Algorithms"></SkillCard>
-            <SkillCard image={problemsolving} title="Problem Solving"></SkillCard>
 
-          </div>
+          <SkillCard image={ds} title="Data Structure"></SkillCard>
+          <SkillCard image={algorithm} title="Machine Learning"></SkillCard>
+          <SkillCard image={algorithm} title="Deep Learning"></SkillCard>
+          <SkillCard image={ds} title="Algorithms"></SkillCard>
+          <SkillCard image={problemsolving} title="Problem Solving"></SkillCard>
+
         </div>
 
       </div>
+
 
       <div className={Style.divider}></div>
       <h1>Database</h1>
@@ -104,17 +91,27 @@ const Skills = () => {
           <img src={database_image} />
         </div>
         <div className={Style.skill_right}>
-        <div className={Style.skill_set}>
-        <SkillCard image={mysql} title="MySQL"></SkillCard>
+
+          <SkillCard image={mysql} title="MySQL"></SkillCard>
           <SkillCard image={firebase} title="Firebase"></SkillCard>
           <SkillCard image={hive} title="Flutter Hive"></SkillCard>
-        </div>
-        </div>
 
+        </div>
       </div>
     </div>
   );
 }
 
 export default Skills;
+/*
+ </div>
+      <div className={Style.divider}></div>
+      
+
+      
+
+     
+
+    
+*/
 
