@@ -18,9 +18,10 @@ import skillset from "../../../images/skill_set.png";
 import mysql from "../../../images/sql.png";
 import hive from "../../../images/rsz_hive.png";
 import firebase from "../../../images/firebase64x64.png";
+import database_image from "../../../images/skill_database.png";
 
-
-
+import  { ReactComponent as YourSvg } from "../../../images/framework_skill.svg";
+import  { ReactComponent as LanguageSvg } from "../../../images/language_skill.svg";
 
 import SkillCard from "./SkillCard";
 
@@ -31,7 +32,7 @@ const Skills = () => {
       <div className={Style.small_divider}></div>
       <div className={Style.skill_box_with_image}>
         <div className={Style.skill_left}>
-          <img src={skillset} />
+     <LanguageSvg height={500} width={400}/>
         </div>
         <div className={Style.skill_right}>
           <div className={Style.skill_set}>
@@ -56,7 +57,7 @@ const Skills = () => {
       <div className={Style.small_divider}></div>
       <div className={Style.skill_box_with_image}>
         <div className={Style.skill_left}>
-          <img src={skillset} />
+        <YourSvg height={400} width={400}/>
         </div>
         <div className={Style.skill_right}>
           <div className={Style.skill_set}>
@@ -100,7 +101,7 @@ const Skills = () => {
       <div className={Style.small_divider}></div>
       <div className={Style.skill_box_with_image}>
         <div className={Style.skill_left}>
-          <img src={skillset} />
+          <img src={database_image} />
         </div>
         <div className={Style.skill_right}>
         <div className={Style.skill_set}>
